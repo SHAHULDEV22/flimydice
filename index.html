@@ -6,84 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domain Name</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        section ul li.active,
-        section ul li:focus,
-        section ul li:hover {
-            background: #673AB7;
-            color: #fff;
-        }
-        
-        .new-nav-link {
-            display: block;
-            padding: 0.5rem 1rem;
-            color: #673AB7;
-            text-decoration: none;
-            transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-        }
-        
-        .new-nav-link:focus,
-        .new-nav-link:hover {
-            color: #fff;
-        }
-    </style>
 </head>
 
 <body>
     <header class="navbar-light navbar-light bg-light">
-        <!-- <div class="navbar-top small">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background: #673AB7 !important;">
             <div class="container-xl">
-                <div class="d-md-flex justify-content-between align-items-center">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link ps-0" href="about-us.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">privacy policy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">terms & conditions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">disclimer</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://themes.getbootstrap.com/store/webestica/">Buy now!</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">contact</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex justify-content-center">
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link px-2 fs-5" href="#"><i class="fab fa-facebook-square"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-2 fs-5" href="#"><i class="fab fa-twitter-square"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-2 fs-5" href="#"><i class="fab fa-linkedin"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-2 fs-5" href="#"><i class="fab fa-youtube-square"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link ps-2 pe-0 fs-5" href="#"><i class="fab fa-vimeo"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <nav class="navbar navbar-expand-md navbar-dark " style="background: #673AB7 !important;">
-            <div class="container-xl">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -95,18 +32,16 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <label for="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        </label>
+                        <label for="search"></label>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-light" type="submit">Search</button>
                     </form>
                 </div>
             </div>
         </nav>
-        <!-- Jumbotron -->
-        <div class="container-lg text-capitalize">
-            <section class="py-3" style="cursor: pointer;">
-                <ul class="d-flex p-0 flex-wrap justify-content-lg-start justify-content-evenly">
+        <div class="pt-5 container-lg text-capitalize">
+            <section class="pt-3" style="cursor: pointer;">
+                <ul class="d-flex flex-row m-0 p-0 overflow-auto" style="white-space: nowrap;">
                     <li class="list new-nav-link active" data-filter="all">all</li>
                     <li class="list new-nav-link" data-filter="bollywood">bollywood</li>
                     <li class="list new-nav-link" data-filter="hollywood">hollywood</li>
@@ -118,7 +53,6 @@
                 </ul>
             </section>
         </div>
-        <!-- Jumbotron -->
     </header>
     <main class="container-fluid">
         <div class="py-3 row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4 movies">
@@ -347,22 +281,4 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
 </body>
-
 </html>
-
-
-<!-- 
-
-    .card {
-    border: 0 solid transparent;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
-}
-
-bg: #f4f4f4;
-
-rating
-unchecked: #fee5e7  #e4efff
-checked: #f41127  #008cff
-
- ->ked: #f41127 #008cff -->
