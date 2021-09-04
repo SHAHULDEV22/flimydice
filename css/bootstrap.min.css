@@ -7404,7 +7404,7 @@ fieldset:disabled .btn {
 }
 
 .border-end {
-  border-right: 1px solid #dee2e6 !important;
+  border-right: 2px solid #673ab7 !important;
 }
 
 .border-end-0 {
@@ -7412,7 +7412,7 @@ fieldset:disabled .btn {
 }
 
 .border-bottom {
-  border-bottom: 1px solid #dee2e6 !important;
+  border-bottom: 2px solid #673ab7 !important;
 }
 
 .border-bottom-0 {
@@ -7977,6 +7977,7 @@ fieldset:disabled .btn {
   padding: 3rem !important;
 }
 
+
 .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important;
@@ -7991,7 +7992,12 @@ fieldset:disabled .btn {
   padding-right: 0.5rem !important;
   padding-left: 0.5rem !important;
 }
-
+.pr-2{
+  padding-right: 0.5rem !important;
+}
+.pl-2{
+  padding-right: 0.5rem !important;
+}
 .px-3 {
   padding-right: 1rem !important;
   padding-left: 1rem !important;
