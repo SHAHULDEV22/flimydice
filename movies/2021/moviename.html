@@ -28,29 +28,36 @@
 </head>
 
 <body>
-    <header class="navbar-light navbar-light bg-light">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background: #673AB7 !important;">
-            <div class="container-xl"> <a class="navbar-brand" href="../../index.html"><i class="fa fa-home"></i></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"> <span class="fa fa-bars"></span> </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"> <a class="nav-link active" href="index.html">Home</a></li>
-                        <li class="nav-item"> <a class="nav-link" href="movies.html">Movies</a></li>
-                        <li class="nav-item"> <a class="nav-link" href="upcoming.html">Up Comming</a></li>
-                    </ul>
-                    <form class="d-flex" action="https://www.google.com/search" method="GET"> 
-                        <label for="search"></label>
-                        <input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search"> <button class="btn btn-outline-light" type="submit">Search</button> 
-                    </form>
-                </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background: #673AB7 !important;">
+        <div class="container-xl"> <a class="navbar-brand" href="../../index.html"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 272 88">
+                    <text id="FilmyDice" transform="translate(0 70)" fill="#fff" font-size="70"
+                        font-family="Lobster-Regular, Lobster">
+                        <tspan x="0" y="0">FilmyDice</tspan>
+                    </text>
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"> <span class="fa fa-bars"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"> <a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="movies.html">Movies</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="upcoming.html">Up Comming</a></li>
+                </ul>
+                <form class="d-flex" action="https://www.google.com/search" method="GET">
+                    <label for="search"></label>
+                    <input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <main class="container-xl pt-5">
-        <div class="py-3">
-            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <div class="py-4">
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="../../upcoming.html">Up Comming</a></li>
@@ -61,14 +68,17 @@
                 <div class="col-md-8 mb-4">
                     <section class="border-bottom mb-4">
                         <div class="row">
-                            <div class="col-sm-4"> 
-                                <img src="../../images/poster.webp" class="img-fluid shadow-2-strong rounded-5 mb-4" alt="NAME" width="100%" height="100%" /> </div>
+                            <div class="col-sm-4">
+                                <img src="../../images/poster.webp" class="img-fluid shadow-2-strong rounded-5 mb-4"
+                                    alt="NAME" width="100%" height="100%" />
+                            </div>
                             <div class="col-sm-8">
                                 <div class="row align-items-center mb-4">
                                     <h1 class="h3 text-capitalize">NAME</h1>
                                     <p class="desc">description</p>
                                     <p class="mve-type m-0"> <span class="text-uppercase pr-2 border-end">u/a</span>
-                                        <span>Horror</span> <span>Romance</span> <span>Thriller</span> </p>
+                                        <span>Horror</span> <span>Romance</span> <span>Thriller</span>
+                                    </p>
                                     <p class="m-0"><strong>Release Date :</strong> 06 Aug 2021</p>
                                     <p class="m-0"><strong>Cast :</strong> Prashant Walde, Heta Shah</p>
                                     <p class="m-0"><strong>Director :</strong> Sumit Sagar</p>
@@ -86,17 +96,27 @@
                         </div>
                     </section>
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation"> <a class="nav-link active" id="Cast-Crew-tab" data-bs-toggle="tab" href="#Cast-Crew" role="tab" aria-controls="Cast-Crew" aria-selected="true">Cast & Crew</a> </li>
-                        <li class="nav-item" role="presentation"> <a class="nav-link" id="Video-tab" data-bs-toggle="tab" href="#Video" role="tab" aria-controls="Video" aria-selected="false">Videos</a> </li>
-                        <li class="nav-item" role="presentation"> <a class="nav-link" id="Music-tab" data-bs-toggle="tab" href="#Music" role="tab" aria-controls="Music" aria-selected="false">Musics</a> </li>
-                        <li class="nav-item" role="presentation"> <a class="nav-link" id="Review-tab" data-bs-toggle="tab" href="#Review" role="tab" aria-controls="Review" aria-selected="false">Reviews</a> </li>
+                        <li class="nav-item" role="presentation"> <a class="nav-link active" id="Cast-Crew-tab"
+                                data-bs-toggle="tab" href="#Cast-Crew" role="tab" aria-controls="Cast-Crew"
+                                aria-selected="true">Cast & Crew</a> </li>
+                        <li class="nav-item" role="presentation"> <a class="nav-link" id="Video-tab"
+                                data-bs-toggle="tab" href="#Video" role="tab" aria-controls="Video"
+                                aria-selected="false">Videos</a> </li>
+                        <li class="nav-item" role="presentation"> <a class="nav-link" id="Music-tab"
+                                data-bs-toggle="tab" href="#Music" role="tab" aria-controls="Music"
+                                aria-selected="false">Musics</a> </li>
+                        <li class="nav-item" role="presentation"> <a class="nav-link" id="Review-tab"
+                                data-bs-toggle="tab" href="#Review" role="tab" aria-controls="Review"
+                                aria-selected="false">Reviews</a> </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="Cast-Crew" role="tabpanel"
                             aria-labelledby="home-tab">...</div>
                         <div class="tab-pane fade" id="Video" role="tabpanel" aria-labelledby="Video-tab">
                             <h1 class="h4">video-title</h1>
-                            
+                            <div class="embed-responsive embed-responsive-16by9 shadow-4-strong"> <iframe
+                                class="embed-responsive-item rounded-5"
+                                src="https://www.youtube.com/embed/c9B4TPnak1A" allowfullscreen></iframe> </div>
                         </div>
                         <div class="tab-pane fade" id="Music" role="tabpanel" aria-labelledby="Music-tab">...</div>
                         <div class="tab-pane fade" id="Review" role="tabpanel" aria-labelledby="Review-tab">...</div>
