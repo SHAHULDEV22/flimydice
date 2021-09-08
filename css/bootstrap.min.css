@@ -4825,7 +4825,8 @@ fieldset:disabled .btn {
   background-clip: border-box;
   border: 0 solid transparent;
   margin-bottom: 1.5rem;
-  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
   border-radius: 0.25rem;
 }
 
@@ -7482,7 +7483,9 @@ fieldset:disabled .btn {
 .border-5 {
   border-width: 5px !important;
 }
-
+.w-1 {
+  width: 120px !important;
+}
 .w-25 {
   width: 25% !important;
 }
@@ -7977,7 +7980,6 @@ fieldset:disabled .btn {
   padding: 3rem !important;
 }
 
-
 .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important;
@@ -7992,10 +7994,10 @@ fieldset:disabled .btn {
   padding-right: 0.5rem !important;
   padding-left: 0.5rem !important;
 }
-.pr-2{
+.pr-2 {
   padding-right: 0.5rem !important;
 }
-.pl-2{
+.pl-2 {
   padding-right: 0.5rem !important;
 }
 .px-3 {
@@ -11090,9 +11092,42 @@ section ul li:hover {
   padding: 0.5rem 1rem;
   color: #673ab7;
   text-decoration: none;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 p.line {
   background: #673ab7;
   height: 2px;
+}
+
+
+@media (min-width: 206px) {
+  .youtube {
+    height: 200px !important;
+  }
+}
+@media (min-width: 576px) {
+  .youtube {
+    height: 300px !important;
+  }
+}
+@media (min-width: 768px) {
+  .youtube {
+    height: 170px !important;
+  }
+}
+@media (min-width: 992px) {
+  .youtube {
+    height: 190px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .youtube {
+    height: 215px !important;
+  }
+}
+@media (min-width: 1400px) {
+  .youtube {
+    height: 250px !important;
+  }
 }
