@@ -11100,7 +11100,6 @@ p.line {
   height: 2px;
 }
 
-
 @media (min-width: 206px) {
   .youtube {
     height: 200px !important;
@@ -11129,5 +11128,22 @@ p.line {
 @media (min-width: 1400px) {
   .youtube {
     height: 250px !important;
+  }
+}
+.anim {
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
