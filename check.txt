@@ -43,3 +43,27 @@
 </div>
 </div>
 </div> -->
+
+
+
+                <!-- <div class="col">
+                    <div class="card">
+                        <a href="movies/2021/moviename.html" class="card-link">
+                            <img src="images/poster.webp" class="card-img-top" alt="premaatur" width="100%"
+                                height="100%">
+                            <h1 class="p-2 mb-0 h6">name</h1>
+                        </a>
+                        <div class="d-flex justify-content-between p-2">
+                            <div class="rating-starts m-0">
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                            <div class="rating">
+                                <p class="m-0">na</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->    
